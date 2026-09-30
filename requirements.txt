@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+zarr>=2.16
+blosc2>=2.0
+numba>=0.58
+scikit-image>=0.21
+kaggle>=1.5
