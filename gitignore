@@ -1,0 +1,25 @@
+# Secrets — NEVER commit your Kaggle token
+kaggle.json
+data/kaggle.json
+*.token
+
+# Data (downloaded, not committed)
+data/*.zip
+data/train/
+data/test/
+data/train.zip
+data/test.zip
+
+# Outputs
+submission.csv
+*.csv
+*.zarr/
+*.geff/
+*.zarr.zip
+*.geff.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
